@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="light" id="body">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="logo" src="https://pngimg.com/d/kfc_PNG53.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <select name="" id="idioma" class="form-select" onchange="cambiarIdioma()">
+                            <option selected disabled value="">Seleccionar idioma</option>
+                            <option value="es">Español</option>
+                            <option value="en">Ingles</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select name="" id="tema" class="form-select" onchange="cambiarTema()">
+                            <option selected disabled value="">Seleccionar tema</option>
+                            <option value="light">Claro</option>
+                            <option value="dark">Oscuro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-1.webp" class="img-fluid" alt="...">
+                        <div class="card-body b-100">
+                          <h5 class="card-title">$8.900</h5>
+                          <h5 id="name-product1" class="card-title">BBQ Crunch</h5>
+                          <p id="hamb-1" class="card-text">1 Sándwich BBQ Crunch (1 Filete de pollo apanado)</p>
+                          <br>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-2.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$15.900</h5>
+                          <h5 id="name-product2" class="card-title">Kentucky Sandwich</h5>
+                          <p id="hamb-2" class="card-text">1 Kentucky hamburguesa / Sandwich (1 Filete de pechuga de pollo apanado, pepinillos,...)</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-3.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$15.900</h5>
+                          <h5 id="name-product3" class="card-title">Combo BBQ Crunch</h5>
+                          <p id="hamb-3" class="card-text">1 Sándwich BBQ Crunch (1 Filete de pollo apanado) + 1 Papa Pequeña + 1 Gaseosa PET...</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-4.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$16.900</h5>
+                          <h5 id="name-product4" class="card-title">Kentucky Coronel Sandwich </h5>
+                          <p id="hamb-4" class="card-text">1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pechuga...)</p>
+                        </div>
+                        <br>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-5.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$21.900</h5>
+                          <h5 id="name-product5" class="card-title">Combo Kentucky Sandwich</h5>
+                          <p id="hamb-5" class="card-text">1 Kentucky hamburguesa /Sandwich (1 Filete de pechuga de pollo apanado, pepinillos,...)</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-6.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$22.900</h5>
+                          <h5 id="name-product6" class="card-title">Combo Kentucky Coronel Sandwich</h5>
+                          <p id="hamb-6" class="card-text">1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pechuga...)</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-7.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$23.900</h5>
+                          <h5 id="name-product7" class="card-title">Sandwich Crispy BBQ</h5>
+                          <p id="hamb-7" class="card-text">1 Sándwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado, cebolla...)</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-5">
+                    <div class="card p-2 h-100">
+                        <img src="./images/hamburguesa-8.webp" class="img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$29.900</h5>
+                          <h5 id="name-product8" class="card-title">Combo Sandwich Crispy BBQ</h5>
+                          <p id="hamb-8" class="card-text">1 Sándwich Crispy BBQ (1 Filete de pechuga extra grande, triple,...)</p>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer">
+          <div class="row">
+              <div class="col-md-4">
+                <img class="logo-footer" src="https://seeklogo.com/images/K/kfc-logo-89A77F99A6-seeklogo.com.png" alt="">
+                <p>
+                    <p class="textos">KFC tiene la receta secreta del mejor pollo frito</p>
+                    <p class="textos">Disfruta de nuestro delicioso pollo frito, popcorn, alitas picantes, sándwiches originales, postres, y más. Conoce aquí nuestro menú KFC aquí.</p>
+                </p>
+              </div>
+              <div class="col-md-4">
+
+                <p class="texto-2">
+                    <p>Contáctanos</p>
+                    Inversiones INT Colombia S.A.S, NIT: 900 439 301 -2</p>
+                    Sé parte de KFC</p>
+                    Calle 86a 13-42</p>
+                    Bogotá, Colombia</p>
+                    Llamanos: 3009120963</p>
+                    Contactenos Aquí</p>
+                    Superintendencia de Industria y Comercio SIC</p>
+                </p>
+
+              </div>
+              <div class="col-md-4">
+                <p class="texto-2">
+                    Políticas</p>
+                    Llamanos: 3009120963</p>
+                    Términos y Condiciones de Promociones</p>
+                    Términos y Condiciones</p>
+                    Políticas de Privacidad</p>
+                </p>
+              </div>
+          </div>
+        </div>
+   </footer>
+   <script src="./app.js"></script>
+</body>
+</html>

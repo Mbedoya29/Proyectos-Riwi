@@ -1,0 +1,79 @@
+.logo{
+    width: 300px;
+}
+
+/*___________________________ light ___________________________*/
+
+.light{
+    background-color: #f3f3f3;
+}
+.btn.btn-primary{
+    width: 100%;
+    background-color: #EB1C2C;
+    border-color: #EB1C2C;
+}
+.btn.btn-primary:hover{
+    background-color: #ffffff;
+    border-color: #EB1C2C;
+    color: #EB1C2C;
+
+}
+.form-select{
+    cursor: pointer;
+}
+.footer{
+    margin-top: 60px;
+}
+.col-md-4{
+    padding: 10px;
+    background-color: #232126;
+    color: white;
+}
+
+.logo-footer{
+    margin-left: 80px;
+    width: 100px;
+}
+
+.textos{
+    margin-left: 80px;
+}
+
+.texto-2{
+    font-size:1em;
+    line-height:0em;
+    margin-top: 50px;
+}
+
+.card-light{
+    background-color: #ffffff;
+}
+/*___________________________ Dark ___________________________*/
+
+.dark{
+    background-color: #3a3939;
+
+}
+
+.dark .btn.btn-primary{
+    background-color: #3a3939;
+    border-color: white;
+    color: white;
+}
+
+.dark .btn.btn-primary:hover{
+    background-color: #ffffff;
+    border-color: #EB1C2C;
+    color: #EB1C2C;
+
+}
+
+.dark .card{
+    background-color: #dddd;
+}
+
+.dark .col-md-4{
+    padding: 10px;
+    background-color: #EB1C2C;
+    color: white;
+}

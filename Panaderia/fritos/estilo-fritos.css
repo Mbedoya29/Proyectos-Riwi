@@ -1,0 +1,359 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*Parte de arriba*/
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+span i
+{
+    cursor: pointer;
+    font-size: 18px;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+button
+{
+    cursor: pointer;
+}
+body
+{
+    background-color: #d9bc9a;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #591902;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Noto Serif', serif;
+    top: 0;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo img
+{
+    width: 100px;
+    margin-right: 10px;
+    height: 90px;
+}
+nav
+{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+nav a 
+{
+    font-weight: 600;
+    padding-right: 15px;
+    color: #fff;
+}
+nav a:hover
+{
+    color: #d96a29;
+}
+h1
+{
+    text-align: center;
+    margin-top: 100px;
+    color: #591902;
+}
+/**/
+
+
+
+
+
+.selected-lang
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 100px;
+    color: #fff;
+    
+}
+.selected-lang:hover
+{
+    color: #d96a29;
+}
+
+.selected-lang::before
+{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    color: #fff;
+    background-image: url(https://flagsapi.com/CO/flat/32.png);
+}
+.lang-menu
+{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+}
+.lang-menu ul
+{
+    margin: 0;
+    padding: 0;
+    background-color: #725858;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    
+}
+.lang-menu ul li
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lang-menu ul li a
+{
+    width: 125px;
+    display: block;
+    padding: 5px 10px;
+    
+}
+.lang-menu ul li a::before
+{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    vertical-align: middle;
+}
+.lang-menu ul li a:hover
+{
+    background-color: #f2f2f2f2;
+}
+.us::before
+{
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+}
+.lang-menu:hover ul
+{
+    display: block;
+}
+
+.whatsapp img
+{
+    width: 60px;
+    position: fixed;
+    margin-left: 1750px;
+    margin-top: 170px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.whatsapp img:hover
+{
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+[class*="col"]{
+    position: relative;
+    min-height: 1px;
+    float: left;
+    
+}
+span
+{
+    float: right;
+}
+.col-12 {
+    width: 100%;
+  }
+  .col-11 {
+    width: 91.66666667%;
+  }
+  .col-10 {
+    width: 83.33333333%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-8 {
+    width: 66.66666667%;
+  }
+  .col-7 {
+    width: 58.33333333%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-5 {
+    width: 41.66666667%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 16.66666667%;
+  }
+  .col-1 {
+    width: 8.33333333%;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .w-100{
+    width: 100%;
+
+  }
+.Agregar{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 150px;
+    height: 30px;
+    background-color: #d96a29;
+    border: 1px solid #d96a29;
+    color: #fff;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.9s;
+}
+
+.Agregar:hover{
+    background-color: #fff;
+    color: #d96a29;
+    border: 1px solid #d96a29;
+    transition: 0.9s;
+    border-radius: 0%;
+}
+.pd
+{
+    padding: 20px;
+}
+.pd img
+{
+    width: 370px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pie de pagina*/
+
+
+input{
+    width: 400px;
+}
+footer{
+    background-color: #591902;
+    bottom: 0;
+    width: 100%;
+    height: 310px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.mt-24
+{
+    margin-top: 18px;
+}
+.mt-24 input
+{
+    margin-top: 10px;
+}
+.mt-24 img
+{
+    margin-top: 20px;
+}
+.mt-24 button
+{
+
+    width: 400px;
+    height: 30px;
+    background-color: #d96a29;
+    border: 1px solid #d96a29;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.9s;
+    font-size: 14px;
+}
+.mt-24 button:hover
+{
+    background-color: #fff;
+    color: #d96a29;
+    border: 1px solid #d96a29;
+    transition: 0.9s;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.mt-24 h2
+{
+    color: #591902;
+}
+
+footer img{
+    width: 100px;
+}
+footer i{
+    font-size: 25px;
+}
+.fz-20 i{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer
+{
+    text-align: center;
+}

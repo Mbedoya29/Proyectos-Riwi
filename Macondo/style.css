@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.titulo{
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(34, 82, 138);
+}
+
+.subtitulo{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(34, 82, 138);
+}
+
+.subtitulo2{
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(34, 82, 138);
+}
+
+.parrafos{
+    margin-left: 310px;
+    margin-right: 310px;
+    justify-content: center;
+}
+
+.parrafos1{
+    margin-left: 310px;
+    margin-right: 310px;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.grid1{
+    display: grid;
+    justify-content: center;
+
+}
+
+.caja1{
+    justify-content: center;
+
+}
+
+.tx-1{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.imagen{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    justify-content: center;
+}
+
+.img-boton{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 9px;
+    width: 245px;
+    height: 168px;
+}
+
+.botones1{
+    border: 1px solid black;
+    background-color: rgb(127, 208, 255);
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+
+
+.linea-separadora{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1250px;
+    border: 1px  solid rgb(34, 82, 138);
+    border-radius: 3px;
+}
+
+.caja2{
+    display: inline-block;
+}
+
+.imagen6{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.imagen7{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    justify-content: center;
+}
+
+.grid2{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px
+}
+
+.caja3{
+    margin-top: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.input{
+    margin-top: 20px;
+    justify-content: center;
+    width: 280px;
+}
+
+.convertir{
+    justify-content: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(34, 82, 138);
+    border-radius: 5px;
+}
+
+.maleta{
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: rgb(127, 208, 255);
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.imagengrande{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contraseñaWifi{
+    width: 310px;
+    height: 40px;
+    border: none;
+    background-color: rgb(127, 208, 255);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.idioma_i{
+    margin-bottom: 15px;
+    width: 310px;
+    height: 40px;
+    border: none;
+    background-color: rgb(127, 208, 255);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.aleatorio{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(127, 208, 255);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.caja4{
+    margin-bottom: 20px;
+}
+.opcion{
+    margin-bottom: 20px;
+}
+
+.caso6{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(127, 208, 255);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.select{
+    margin-bottom: 15px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(127, 208, 255);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

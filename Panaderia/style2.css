@@ -1,0 +1,376 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*Parte de arriba*/
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+body
+{
+    background-color: #d9bc9a;
+}
+button
+{
+    cursor: pointer;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #591902;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Noto Serif', serif;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo img
+{
+    width: 100px;
+    margin-right: 10px;
+    height: 90px;
+}
+nav
+{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+nav a 
+{
+    font-weight: 600;
+    padding-right: 15px;
+    color: #fff;
+}
+nav a:hover
+{
+    color: #d96a29;
+}
+.cabecera2 img
+{
+    height: 700px;
+    width: 100%;
+
+}
+
+
+
+
+
+.selected-lang
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 100px;
+    color: #fff;
+    
+}
+.selected-lang:hover
+{
+    color: #d96a29;
+}
+
+.selected-lang::before
+{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    color: #fff;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+}
+.lang-menu
+{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+}
+.lang-menu ul
+{
+    margin: 0;
+    padding: 0;
+    background-color: #725858;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    
+}
+.lang-menu ul li
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lang-menu ul li a
+{
+    width: 125px;
+    display: block;
+    padding: 5px 10px;
+    
+}
+.lang-menu ul li a::before
+{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/CO/flat/32.png);
+    vertical-align: middle;
+}
+.lang-menu ul li a:hover
+{
+    background-color: #f2f2f2f2;
+}
+.us::before
+{
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+}
+.lang-menu:hover ul
+{
+    display: block;
+}
+
+
+
+
+.portafolio-item
+{
+    width: 300px;
+    height: 250px;
+    background-color: #591902;
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);
+    margin-top: 60px;
+    margin-left: 140px;
+}
+.productos
+{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+.portafolio-item
+{
+    width: 15%;
+    margin-left: 150px;
+
+}
+.portafolio-item h2
+{
+    color: #591902;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Noto Serif', serif;
+}
+.portafolio-item p
+{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.portafolio-item button
+{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 150px;
+    height: 30px;
+    background-color: #d96a29;
+    border: 1px solid #d96a29;
+    color: #fff;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.9s;
+    font-size: 14px;
+}
+.portafolio-item button:hover
+{
+    background-color: #fff;
+    color: #d96a29;
+    border: 1px solid #d96a29;
+    transition: 0.9s;
+    border-radius: 0%;
+}
+.portafolio-img
+{
+    transition: all 450ms ease;
+    width: 100%;
+    height: 250px;
+}
+.portafolio-img:hover
+{
+    transform: rotate(-5deg) scale(1.15);
+}
+
+.whatsapp img
+{
+    width: 60px;
+    position: fixed;
+    margin-left: 1750px;
+    margin-top: 170px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.whatsapp img:hover
+{
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);
+}
+
+
+/*Parte central de la pagina*/
+
+.sobre{
+    width: 100%;
+    text-align: center;
+    margin-top: 650px;  
+}
+.acerca
+{
+    width: 80%;
+    margin-left: 190px;
+    margin-bottom: 20px;
+}
+.acerca h2
+{
+    margin-bottom: 20px;
+    color: #591902;
+}
+.politica{
+    padding: 0% 1% 1% 1%;
+    height: 200px;
+}
+
+.mision
+{
+    width: 33%;
+    float: right;
+    
+}
+.mision h3
+ {
+    margin-bottom: 10px;
+    color: #591902;
+ }
+.vision{
+    width: 33%;
+}
+.vision h3
+{
+    margin-bottom: 10px;
+    color: #591902;
+}
+.bakery{
+    width: 800px;
+}
+.panadero{
+    width: 400px;
+}
+.perfil img
+{
+    border-radius: 360px;
+    border: 2px solid #591902;
+    transition: 0.9s;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.perfil img:hover
+{
+    border-radius: 0%;
+    border: 0px;
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);
+    transition: 0.9s;
+}
+
+
+/*Pie de pagina*/
+
+input{
+    width: 400px;
+}
+footer{
+    background-color: #591902;
+    bottom: 0px;
+    width: 100%;
+    height: 310px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.mt-24
+{
+    margin-top: 18px;
+}
+.mt-24 input
+{
+    margin-top: 10px;
+}
+.mt-24 img
+{
+    margin-top: 20px;
+}
+.mt-24 button
+{
+
+    width: 400px;
+    height: 30px;
+    background-color: #d96a29;
+    border: 1px solid #d96a29;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.9s;
+    font-size: 14px;
+}
+.mt-24 button:hover
+{
+    background-color: #fff;
+    color: #d96a29;
+    border: 1px solid #d96a29;
+    transition: 0.9s;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.mt-24 h2
+{
+    color: #591902;
+}
+
+footer img{
+    width: 100px;
+}
+footer i{
+    font-size: 25px;
+}
+.fz-20 i{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer
+{
+    text-align: center;
+}
+
+
+/*Lenguaje*/
+
