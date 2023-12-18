@@ -1,0 +1,206 @@
+/*____________________Pagina 1(Index.html)____________________*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 50%;
+    transform: translateX(calc((100%-100vw)/2));
+    z-index: -2;
+}
+
+.text-center{
+    margin-top: 200px;
+    font-size: 200px;
+    color: #e3e4e5;
+    align-content: center;
+    font-family: 'Harry Potter', sans-serif;
+    font: bold 80px/1;
+    color: #dfdfdf;
+    text-shadow: 0  2px  0  #6e6e6e,
+                0  4px  0   #5e5e5e,
+                0  6px  0   #4e4e4e, 
+                0  8px  0   #3e3e3e, 
+                0 10px  0   #2e2e2e,
+                0 12px  0   #1e1e1e,
+                3px 8px 15px rgba(0,0,0,0.1),
+                3px 8px  5px rgba(0,0,0,0.3);
+}
+
+.botones{
+    width: 215px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 22px;
+    background-color: #8C704F;
+    font-family: 'Harry Potter', sans-serif;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.botones:hover{
+    background-color: #D9C091;
+    border: 2px solid white;
+    color: black;
+}
+
+.start-42{
+    left: 45% !important;
+}
+
+/*___________________/Pagina 1(Index.html)____________________*/
+
+
+/*____________________Pagina 2(Inicio1.html)____________________*/
+.body{
+    background-image: url(https://cdn0.vox-cdn.com/thumbor/nBeUJ2nW6O6YNGWaeiI9-F-sdUs=/0x1080/volume-assets.voxmedia.com/production/bf8a288a24c4c1413877b45911cda802/Hogwarts%2520Experience%25201.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    background-color: #F2EADF
+
+}
+
+.titulo{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.titulo1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.titulos3{
+    font-size: 40px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.sombrero{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.parrafos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.parrafos2{
+    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.palabras{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.imagen{
+    margin: 5px;
+    width: 400px;
+    justify-content: center;
+}
+
+.linea{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.varita{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 230px;
+    transform: rotate(-28deg);
+}
+
+.titulo2{
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.titulo4{
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.patronus{
+    width: 180px;
+}
+
+.form-select{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.dementor{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 190px;
+    
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+.subtitulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: 'Harry Potter', sans-serif;
+    color: #8C704F;
+}
+
+.subtitulo:hover{
+    color: black;
+}
+
+.imagenRiddikulus{
+    margin-top: 20px;
+    height: 180px;
+    width: 315px;
+    border-radius: 10px;
+
+}
+
+.varitaPequeña{
+    width: 180px;
+}
+
+.varitaPequeña:hover{
+    border-radius:50%;
+    -webkit-border-radius:20px;
+    box-shadow: 0px 0px 10px 10px #1eabec;
+    -webkit-box-shadow: 0px 0px 10px 10px #1eabec;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.parrafos3{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}

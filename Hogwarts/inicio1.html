@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts - Casa</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body id="body" class="body">
+    <!--____________________Audio____________________-->
+    <audio autoplay loop>
+        <source src="./Imagenes/audio.mp3" type="audio/mpeg">
+    </audio>
+    <!--___________________/Audio____________________-->
+
+    <!--___________________Titulo 1__________________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="sombrero" src="./Imagenes/Sombrero.png" alt="">
+                </div>
+                <div class="col-md-10">
+                    <p class="titulo1">Sombrero seleccionador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--__________________/Titulo 1__________________-->
+
+    <!--_______________Nombre y Familia______________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <input id="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre" aria-label="Recipient's username" aria-describedby="button-addon2">
+                </div>
+                <div class="col-4">
+                    <input id="familia" type="text" class="form-control" placeholder="Ingresa tu familia" aria-label="Recipient's username" aria-describedby="button-addon2">
+                </div>
+                <div class="col-4">
+                    <input id="edad" type="text" class="form-control" placeholder="Ingresa tu edad" aria-label="Recipient's username" aria-describedby="button-addon2">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--______________/Nombre y Familia______________-->
+
+    <!--__________________Cualidades_________________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="parrafos"><strong>Elige tres cualidades con las que te identifiques</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cualidad" id="gryffindor">
+                    <label  class="form-check-label" for="flexRadioDefault1">
+                        “Valor, fuerza, audacia"
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cualidad" id="hufflepuff">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        "Justicia, Lealtad, Paciencia"
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cualidad" id="ravenclaw">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        “Creatividad, Erudición, Inteligencia"
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cualidad" id="slytherin">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        "Ambición, Determinación, Astucia"
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--_________________/Cualidades_________________-->
+
+    <!--____________________Linaje___________________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="parrafos"><strong>Elige tu linaje</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="linaje" id="mestizo">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Mestizo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="linaje" id="muggle">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Muggle
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="linaje" id="sangrePura">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Sangre pura
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--___________________/Linaje___________________-->
+
+    <!--_____________________Casa____________________-->
+    <center>
+    <section class="parrafos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="cualidades()" class="botones" type="button">Ver Casa</button>
+                    <p id="bienvenida" class="tx-1"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="imagen" class="imagen"></div>
+            </div>
+        </div>
+    </section>
+    </center>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="linea">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--____________________/Casa____________________-->
+    
+    <!--____________________Clases___________________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="varita" src="./Imagenes/Varita.png" alt="">
+                </div>
+                <div class="col-md-10">
+                    <p class="titulo1">Clases, profesores y horarios</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 offset-5">
+                         <button onclick="materias()" class="botones" type="button">Ver horario</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 w-100 ms-1">
+                    <div id="clases"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="linea">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--___________________/Clases___________________-->
+
+    <!--_______________Animal patronus_______________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="patronus" src="./Imagenes/1.1.png" alt="">
+                </div>
+                <div class="col-md-10">
+                    <p class="titulo2">Animal Patronus</p>
+                </div>
+            </div>
+            <center>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="parrafos2"><strong>Antes de ir a tu clase debes conocer tu animal patronus. Presiona el boton</strong></p>
+                </div>
+            </div>
+            </center>
+        </div>
+    </section>
+    <center>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="animalPatronus(this)" type="button" class="botones">Ver animal patronus</button>
+                    <p id="animalPatronus" class="palabras"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </center>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="linea">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--______________/Animal patronus_______________-->
+
+    <!--___________________Boggart___________________-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="dementor" src="./Imagenes/Transformaciones/dementorm_icono.png" alt="">
+                </div>
+                <div class="col-md-10">
+                    <p class="titulo4">Clase de transformaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./Imagenes/Transformaciones/araña.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="titulos3">Araña</h5>
+                          <p class="card-text">Presiona la varita para combatir el boggart</p>
+                          <center>
+                            <p class="subtitulo">Riddikulus</p>
+                            <img onclick="araña()" class="varitaPequeña" src="./Imagenes/Varita.png" alt="">
+                          </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./Imagenes/Transformaciones/severus-snape.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="titulos3">Snape</h5>
+                          <p class="card-text">Presiona la varita para combatir el boggart</p>
+                          <center>
+                            <p class="subtitulo">Riddikulus</p>
+                            <img onclick="snape()" class="varitaPequeña" src="./Imagenes/Varita.png" alt="">
+                          </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./Imagenes/Transformaciones/Serpiente.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="titulos3">Serpiente</h5>
+                          <p class="card-text">Presiona la varita para combatir el boggart</p>
+                          <center>
+                          <p class="subtitulo">Riddikulus</p>
+                          <img onclick="serpiente()" class="varitaPequeña" src="./Imagenes/Varita.png" alt="">
+                        </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./Imagenes/Transformaciones/Dementor.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="titulos3">Dementor</h5>
+                          <p class="card-text">Presiona la varita para combatir el boggart</p>
+                          <center>
+                          <p class="subtitulo">Riddikulus</p>
+                          <img onclick="dementor()" class="varitaPequeña" src="./Imagenes/Varita.png" alt="">
+                        </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="riddikulus1">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="riddikulus2">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="riddikulus3">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="riddikulus4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="linea">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--__________________/Boggart___________________-->
+
+    <!--__________________Resultado__________________-->
+    <center>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="titulo2">Resultado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="parrafos3"><strong>Presiona el boton para ver tus resultados</strong></p>
+                <button class="botones" onclick="resultado()">Click</button>
+                <p class="parrafos" id="resultadoNombre"></p>
+                <p class="parrafos" id="resultadoFamilia"></p>
+                <p class="parrafos" id="resultadoEdad"></p>
+                <p class="parrafos" id="resultadoLinaje"></p>
+                <p class="parrafos" id="resultadoCasa"></p>
+                <p class="parrafos" id="resultadoAnimal"></p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="linea">
+                </div>
+            </div>
+        </div>
+    </section>
+    </center>
+
+    <!--_________________/Resultado__________________-->
+
+    <script src="./app.js"></script>
+</body>
+</html>
