@@ -1,3 +1,10 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+.body{
+    background: url(./Imagenes/24.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-color: #242424
+}
