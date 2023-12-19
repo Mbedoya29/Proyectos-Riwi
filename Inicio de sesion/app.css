@@ -1,0 +1,54 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 200px;
+}
+
+.imagenes{
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.imagen-inicio{
+    width: 290px;
+    margin-left: 40px;
+}
+
+.boton_de_inicio{
+    margin-top: 10px;
+}
+
+.texto-azul{
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.linea{
+    width: 500px;
+}
+
+.descargar{
+    margin-top: 50px;
+}
+
+.disponible{
+    width: 200px;
+    margin-bottom: 20ox;
+}
+
+.disponible1{
+    width: 190px;
+}
+
+
+.imagenes1{
+    width: 350px;
+    margin-bottom: 50px;
+}
